@@ -1,4 +1,4 @@
-package exception.handling.tcatch;
+package exception.handling;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package strings.tokens;
+package strings;
 
 import java.util.Scanner;
 

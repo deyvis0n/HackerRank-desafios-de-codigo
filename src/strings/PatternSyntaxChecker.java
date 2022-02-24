@@ -1,4 +1,4 @@
-package strings.syntax.checker;
+package strings;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

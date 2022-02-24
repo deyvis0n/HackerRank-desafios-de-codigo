@@ -1,4 +1,4 @@
-package strings.comparisons;
+package strings;
 
 import java.util.Scanner;
 import java.util.TreeSet;

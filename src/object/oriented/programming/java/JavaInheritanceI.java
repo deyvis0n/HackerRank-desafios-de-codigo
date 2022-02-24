@@ -1,4 +1,4 @@
-package object.oriented.programming.java.inheritance1;
+package object.oriented.programming.java;
 
 public class JavaInheritanceI {
     public static void main(String[] args) {

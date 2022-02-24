@@ -1,4 +1,4 @@
-package strings;
+package strings.substring.reverse;
 
 import java.util.Scanner;
 

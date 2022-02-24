@@ -1,4 +1,4 @@
-package strings;
+package strings.duplicate.words;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

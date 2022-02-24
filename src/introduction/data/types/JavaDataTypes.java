@@ -1,8 +1,8 @@
-package introduction;
+package introduction.data.types;
 
 import java.util.Scanner;
 
-public class JavaDatatypes {
+public class JavaDataTypes {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

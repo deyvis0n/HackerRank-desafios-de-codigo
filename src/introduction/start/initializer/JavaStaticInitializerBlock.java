@@ -1,4 +1,4 @@
-package introduction;
+package introduction.start.initializer;
 
 import java.util.Scanner;
 

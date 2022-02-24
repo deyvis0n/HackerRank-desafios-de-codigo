@@ -1,4 +1,4 @@
-package strings;
+package strings.anagrams;
 
 import java.util.HashMap;
 import java.util.Map;

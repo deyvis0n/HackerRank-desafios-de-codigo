@@ -1,4 +1,4 @@
-package strings;
+package strings.regular.expression;
 
 import java.io.BufferedReader;
 import java.io.IOException;

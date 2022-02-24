@@ -1,4 +1,4 @@
-package strings;
+package strings.substring;
 
 import java.util.Scanner;
 

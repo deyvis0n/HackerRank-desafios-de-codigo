@@ -30,5 +30,6 @@ public class JavaExceptionHandling {
                 System.out.println(e);
             }
         }
+        in.close();
     }
 }

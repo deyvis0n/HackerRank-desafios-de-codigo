@@ -10,5 +10,6 @@ public class JavaSubstring {
         int start = sc.nextInt();
         int end = sc.nextInt();
         System.out.println(s.subSequence(start, end));
+        sc.close();
     }
 }

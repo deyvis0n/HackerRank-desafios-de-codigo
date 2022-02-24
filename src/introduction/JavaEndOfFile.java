@@ -11,5 +11,6 @@ public class JavaEndOfFile {
             System.out.println(n + " " + sc.nextLine());
             n++;
         }
+        sc.close();
     }
 }

@@ -14,5 +14,6 @@ public class JavaExceptionHandlingTryCatch {
         } catch (ArithmeticException ae) {
             System.out.println(ae);
         }
+        sc.close();
     }
 }

@@ -21,6 +21,6 @@ public class PatternSyntaxChecker {
             }
             testCases--;
         }
-
+        in.close();
     }
 }

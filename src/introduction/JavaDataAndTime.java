@@ -15,6 +15,8 @@ public class JavaDataAndTime {
         String res = Result.findDay(month, day, year);
 
         System.out.println(res);
+
+        sc.close();
     }
 
 }

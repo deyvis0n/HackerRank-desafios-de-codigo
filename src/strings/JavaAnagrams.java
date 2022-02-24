@@ -47,6 +47,8 @@ public class JavaAnagrams {
         sc.close();
         boolean ret = isAnagram(a, b);
         System.out.println((ret) ? "Anagrams" : "Not Anagrams");
+
+        sc.close();
     }
 
 }

@@ -10,5 +10,6 @@ public class JavaStringReverse {
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
         System.out.println(name.equals(new StringBuilder(name).reverse().toString()) ? "Yes" : "No");
+        sc.close();
     }
 }

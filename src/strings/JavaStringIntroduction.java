@@ -14,5 +14,6 @@ public class JavaStringIntroduction {
         System.out.println(a.replaceFirst(String.valueOf(a.charAt(0)), String.valueOf(a.toUpperCase().charAt(0)))
                 + " " + b.replaceFirst(String.valueOf(b.charAt(0)), String.valueOf(b.toUpperCase().charAt(0))));
 
+        sc.close();
     }
 }

@@ -11,6 +11,7 @@ public class ValidUsernameRegularExpression {
         for (int i = 0; i < quantity; i++) {
             System.out.println(validateUserName(br.readLine()));
         }
+        br.close();
     }
 
     public static String validateUserName(String name) {

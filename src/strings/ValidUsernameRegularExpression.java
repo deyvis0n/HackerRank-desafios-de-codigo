@@ -1,19 +1,21 @@
 package strings;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class ValidUsernameRegularExpression {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int quantity = scanner.nextInt();
-        while (quantity > 0) {
-            System.out.println(validateUserName(scanner.next()));
-            quantity--;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int quantity = Integer.parseInt(br.readLine());
+        for (int i = 0; i < quantity; i++) {
+            System.out.println(validateUserName(br.readLine()));
         }
     }
 
     public static String validateUserName(String name) {
-        String regexValidator = "[a-zA-Z]\\w{7,29}";
+        String regexValidator = "^[a-zA-Z]\\w{7,29}$";
         return name.matches(regexValidator) ? "Valid" : "Invalid";
     }
+
 }
